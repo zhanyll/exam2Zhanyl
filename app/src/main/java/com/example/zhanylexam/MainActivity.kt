@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun goToActivityWithAction() {
         val intent = Intent("contactApp")
-        intent.putExtra("key", "contactApp")
         startActivity(intent)
     }
 
